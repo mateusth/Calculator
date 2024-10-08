@@ -1,0 +1,123 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #c5eaf1;
+  padding: 5px
+}
+
+body {
+  background-color: #5bd4ec;
+  padding: 1px 20px;
+  border-radius: 30px 10px 55px 10px;
+  margin: auto;
+  width: 80%;
+  min-width: 400px;
+  max-width: 510px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+header,
+#rules_text {
+  font-family: 'Rancho', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 5px;
+  padding: 2px;
+}
+
+#version {
+  padding: 3px;
+  font-size: 25px;
+  color: red;
+  background-color: white;
+  border: #321e01 solid 2px;
+  border-radius: 68% 32% 53% 47% / 67% 17% 83% 33%;
+  box-shadow: #422800 3px 3px 0 0;
+}
+
+hr {
+  margin: 10px 0
+}
+
+/* Calculator */
+#calculator {  
+  width: 220px;
+  padding: 10px;
+  margin: auto;
+  border-radius: 15px;
+  background-color: gray;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+input {
+  width: 200px;
+  height: 35px;
+  padding-right: 5px;
+  border-radius: 5px;
+  border: #321e01 solid 2px;
+  color: black;
+  font-size: 20px;
+  text-align: right;
+  background-color: white;
+}
+
+.button {
+  width: 45px;
+  height: 45px;
+  margin: 1px;
+  font-size: 20px;
+  cursor: pointer;
+  color: white;
+  background-color: #34342d;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  border-radius: 10px;
+}
+
+.large {
+ width: 90px;
+}
+
+.high {
+  height: 90px;
+}
+
+.button:hover {
+  background-color: #1d1b1b;
+}
+
+
+.button:active {
+  transform: translate(1px, 1px);
+}
+
+.disabled {
+    pointer-events: none;
+}
+
+/* real footer */
+#signature {
+  display: flex;
+  font-family: "Playwrite CU", cursive;
+  font-size: 13px;
+  font-weight: bold;
+  justify-content: center;
+
+}
+
+a {
+  text-decoration: none;
+  color: black;
+
+}
+
+i {
+  font-size: 15px;
+  margin: 0px 5px;
+}
